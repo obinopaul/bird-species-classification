@@ -2,6 +2,11 @@
 
 This repository is dedicated to the classification of bird species using the YOLO (You Only Look Once) deep learning model. It aims at leveraging the model's capabilities for real-time and accurate bird species detection from images, contributing to biodiversity monitoring and conservation efforts.
 
+<p align="center">
+  <img src="images/bird_species.png" alt="Bird Species Classification" width="600" height="400"/>
+</p>
+
+
 ## Setup
 
 1. **Clone the Repository**: Get a local copy of the code.
@@ -13,7 +18,6 @@ This repository is dedicated to the classification of bird species using the YOL
 - Preprocess the images using `load_data.py`.
 - Initiate training with `train.py` and inference using  `inference.py`:
 - Alternatively, you can also perform inference on the streamlit app directly  by running `app.py`. 
-- Configuration settings can be found in `config/`.
 
 ## Running Inference
 
